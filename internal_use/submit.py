@@ -11,7 +11,7 @@ from CourseraSubmission import CourseraSubmission
 class MP5(CourseraSubmission):
     def __init__(self):
         super(CourseraSubmission, self).__init__()
-        dev = True
+        dev = False
         self.part_ids = ['mp5-part-a', 'mp5-part-b', 'mp5-part-c', 'mp5-part-d']
         if dev:
             self.part_ids = [part_id + "-dev" for part_id in self.part_ids]
