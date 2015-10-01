@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="datanucleus-api-jdo-3.2.6">
+    <CLASSES>
+      <root url="jar:///usr/local/Cellar/apache-spark/1.5.0/libexec/lib/datanucleus-api-jdo-3.2.6.jar!/" />
+      <root url="jar:///usr/local/Cellar/apache-spark/1.5.0/libexec/lib/datanucleus-core-3.2.10.jar!/" />
+      <root url="jar:///usr/local/Cellar/apache-spark/1.5.0/libexec/lib/datanucleus-rdbms-3.2.9.jar!/" />
+      <root url="jar:///usr/local/Cellar/apache-spark/1.5.0/libexec/lib/spark-1.5.0-yarn-shuffle.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

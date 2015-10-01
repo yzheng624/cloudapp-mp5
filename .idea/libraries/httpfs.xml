@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="httpfs">
+    <CLASSES>
+      <root url="file:///usr/local/Cellar/hadoop/2.7.1/libexec/share/hadoop/httpfs" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

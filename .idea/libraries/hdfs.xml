@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="hdfs">
+    <CLASSES>
+      <root url="file:///usr/local/Cellar/hadoop/2.7.1/libexec/share/hadoop/hdfs" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file:///usr/local/Cellar/hadoop/2.7.1/libexec/share/hadoop/hdfs/jdiff" />
+    </SOURCES>
+    <jarDirectory url="file:///usr/local/Cellar/hadoop/2.7.1/libexec/share/hadoop/hdfs" recursive="false" />
+  </library>
+</component>
