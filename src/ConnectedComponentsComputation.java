@@ -25,6 +25,7 @@ public class ConnectedComponentsComputation extends
   public void compute(
       Vertex<IntWritable, IntWritable, NullWritable> vertex,
       Iterable<IntWritable> messages) throws IOException {
+      int currentComponent = vertex.getValue().get();
 
       if (getSuperstep() == 0) {
         for (Edge<IntWritable, NullWritable> edge : vertex.getEdges()) {

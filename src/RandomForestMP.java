@@ -40,16 +40,15 @@ public final class RandomForestMP {
         Integer seed = 12345;
 
 		// TODO
-        JavaRDD<LabeledPoint> test;
 
-        JavaRDD<LabeledPoint> results = test.map(new Function<Vector, LabeledPoint>() {
+/*        JavaRDD<LabeledPoint> results = test.map(new Function<Vector, LabeledPoint>() {
             public LabeledPoint call(Vector points) {
                 return new LabeledPoint(model.predict(points), points);
             }
         });
 
         results.saveAsTextFile(results_path);
-
+*/
         sc.stop();
     }
 
